@@ -17,12 +17,30 @@ body {
 	-webkit-animation-delay: 1s;
 	animation-delay: 1s;
 }
-.test{
+.block_left{
 	width: 25%;
 	height: 80%;
 	position: absolute; /* Абсолютное позиционирование */
     top: 20%; /* Положение от нижнего края */
-    right; /* Положение от правого края */
+    left: 0%; /* Положение от правого края */
 	
 	background-color: yellow;
+}
+.block_right{
+	width: 25%;
+	height: 80%;
+	position: absolute; /* Абсолютное позиционирование */
+    top: 20%; /* Положение от нижнего края */
+    right: 0%; /* Положение от правого края */
+	
+	background-color: yellow;
+}
+.block_top{
+	width: 50%;
+	height: 80%;
+	position: absolute; /* Абсолютное позиционирование */
+    top: 20%; /* Положение от нижнего края */
+    right: 25%; /* Положение от правого края */
+	
+	background-color: red;
 }
