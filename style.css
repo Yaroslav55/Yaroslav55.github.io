@@ -1,0 +1,28 @@
+
+body {
+	background-color: #5F9EAO;
+}
+@media screen and (max-width:550px)
+{
+	body
+	{
+		background-color: #3cb371;
+		color: #ffa500;
+		font-size: 15px;
+	}
+} 
+.UpDown_1{
+	animation: bottom_animation 6s infinity;
+	-webkit-animation: bottom_animation 6s infinity;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.test{
+	width: 25%;
+	height: 80%;
+	position: absolute; /* Абсолютное позиционирование */
+    top: 20%; /* Положение от нижнего края */
+    right; /* Положение от правого края */
+	
+	background-color: yellow;
+}
