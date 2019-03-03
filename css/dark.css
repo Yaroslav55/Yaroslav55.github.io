@@ -1,0 +1,77 @@
+/* Dark color scheme
+------------------------*/
+html {
+	background: #292929;
+}
+
+body {
+	background: #292929;
+	color: #aaa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+th {
+	color: #eee;
+}
+
+mark,
+ins {
+	background: #666;
+}
+
+mark {
+	color: #aaa;
+}
+
+pre,
+th,
+hr {
+	background: #444;
+}
+
+blockquote,
+table,
+th,
+td {
+	border-color: #444;
+}
+
+button,
+input,
+select,
+textarea {
+	background: #444;
+	border-color: #444;
+	color: #aaa;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+	background: 0;
+	border-color: #444;
+}
+
+.commentform-field label,
+.entry-header:after,
+.intro:after {
+	background: #444;
+}
+
+caption,
+.wp-caption .wp-caption-text,
+.entry-caption,
+.gallery-caption,
+.site-description {
+	color: #666;
+}
