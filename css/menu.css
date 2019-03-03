@@ -1,3 +1,12 @@
+@font-face {
+	font-family: "Open Sans"; 
+	src: local("Open Sans Bold"), 
+	local("OpenSans-Bold"), url("https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2") 
+	format("woff2"); 
+	font-style: normal; 
+	font-weight: 700; 
+	unicode-range: U+0-FF, 
+	U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
 #container {
 	background: black;
@@ -10,10 +19,13 @@
 	color: yellow;
 }
 .menu_txt {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
 	color: white;
 }
 .menu_txt:hover{
   color: yellow;
+  transition: 0.3s; 
 }
 /* Giving a background-color to the nav container. */
 nav {
@@ -48,7 +60,6 @@ nav a {
     line-height: 60px;
     text-decoration:none;
 }
-
 /* Background color change on Hover */
 nav a:hover {
     background-color: #000000;
@@ -56,16 +67,19 @@ nav a:hover {
 /* Hide Dropdowns by Default
  * and giving it a position of absolute */
 nav ul ul {
-    display: none;
+    visibility: hidden;
     position: absolute;
     top: 100%;
+    transition: .3s; 
+
 }
 
 /* Display Dropdowns on Hover */
 nav ul li:hover > ul {
-    display:inherit;
-}
+    visibility:visible;
+    transition: 0.1s .3s
 
+}
 /* Fisrt Tier Dropdown */
 nav ul ul li {
     min-width:170px;
