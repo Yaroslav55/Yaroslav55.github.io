@@ -27,6 +27,58 @@
   color: yellow;
   transition: 0.3s; 
 }
+
+div#rotator {
+	position: absolute; 
+	height:55%; 
+	width: 100%; 
+	left: 0%; 
+	top: 6.7%; 
+}
+div#rotator img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+div#rotator ul li {
+	float:left; 
+	position:absolute;
+  	top: 0;
+  	left: 0;
+	width: 100%;
+	height: 100%; 
+	list-style: none;
+}
+div#rotator ul li.show {z-index:500;}
+
+.slide_btn_prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 500;
+}
+.slide_btn {
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: 50%;
+  left: 0;
+  opacity: 0.7;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 61px;
+  width: 38px;
+  background: transparent url("http://media.runthinkshootlive.com/admin/heron/themes.gif") no-repeat left top;
+  margin-top: -45px;
+  z-index: 500;
+}
+.slide_btn_next {
+  left: auto;
+  background-position: right top;
+  right: 0;
+ }
 /* Giving a background-color to the nav container. */
 nav {
     background-color: black;
